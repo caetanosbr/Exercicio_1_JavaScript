@@ -1,7 +1,6 @@
 
-<h1 align="center"> Exercício 01 </h1>
+<h1 align="left"> Exercício 01 </h1>
 
----
 
 ## 🚀 Tecnologias
 
@@ -25,5 +24,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto está sob a licença MIT.
 
----
+
 
