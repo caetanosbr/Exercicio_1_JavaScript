@@ -18,30 +18,37 @@ Parte 2
 - [ ]  Verifique se os dois números inseridos são iguais ~~(ou diferentes)~~.
 */
 
-alert(" Favor inserir 2 números")
+alert("Favor informe 2 Números")
 let n1 = prompt("Inserir o primeiro número")
 let n2 = prompt("Inserir o segundo número")
-let operetor = (n1 == n2)
+
+let check = n1 === n2 ? "são Iguais!" : "são Diferentes!"
 
 n1 = Number(n1)
 n2 = Number(n2)
-const sum = n1 + n2
 
-const sub = n1 - n2
-const mult = n1 * n2
-const div = n1 / n2
-const restDiv = n1 % n2
+const sum = (n1 + n2)
 
-alert("Soma: " + sum)
-alert("Subtração: " + sub)
-alert("Multiplicação: " + sub)
-alert("Divisão: " + sub)
-alert("Resto da Divisão: " + sub)
+let parImpar = sum % 2 === 0 ? "é Par!" : "é Impar!"
 
+const sub = (n1 - n2)
+const mult = (n1 * n2)
+const div = (n1 / n2)
+const restDiv = (n1 % n2)
+
+alert(`Os dois números ${check}`)
+alert(`A soma dos dois números ${sum}`)
+alert(`A soma dos dois números ${parImpar}`)
+alert(`A subtração dos dois números é ${sub}`)
+alert(`A multiplicação dos dois números é ${mult}`)
+alert(`A divisão dos dois números é ${div}`)
+alert(`O resto da divisão dos dois números é ${restoDiv}`)
+
+/*
 if (sum % 2 === 0) {
-  alert("A Soma dos número é Par!")
+  alert("O número é Par!")
 }else {
-  alert("A Soma dos número é Impar!")
+  alert("O Número é Impar!")
 }
 
 if (n1 == n2) {
@@ -49,3 +56,4 @@ if (n1 == n2) {
 }else {
   alert("Os Números são Diferentes!")
 }
+*/
